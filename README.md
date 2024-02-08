@@ -20,3 +20,4 @@
 
 8. PDM is implemented in this repository.
 
+10. Issue and pull request templates are created in the .github folder
