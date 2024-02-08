@@ -2,11 +2,11 @@ Here is the documentation for the python template.
 
 # Objective
 1. Programming Language: Python
-2. Toolchain/Runtime Environment: 
-3. Testing Framework: pytest
-4. Continuous Integration Solution: Use CircleCI for all languages.
-5. Static Analysis Tool: 
-6. Code Formatting Solution:
+2. Toolchain/Runtime Environment: Python3
+3. Testing Framework: PyTest
+4. Continuous Integration Solution: CircleCI
+5. Static Analysis Tool: Flake8
+6. Code Formatting Solution: Flake8
 7. Package Manager: pip
 8. Use PDM for Python Projects: Implement Python Dependency Management (PDM) for Python-based repositories.
 9. Component Specification: Ensure the template includes the concept of a component, clearly defined and documented.
