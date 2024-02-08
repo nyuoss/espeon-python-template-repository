@@ -1,1 +1,7 @@
-pull request templates
+pull request template:
+
+[Summary]
+
+[Motivation]
+
+[Testing]
