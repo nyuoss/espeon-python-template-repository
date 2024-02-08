@@ -19,5 +19,7 @@
 7. The Package Manager is the 'requirements.txt' file.
 
 8. PDM is implemented in this repository.
+   Install PDM using pip install pdm.
+   Initialize PDM in your project with pdm init.
 
 10. Issue and pull request templates are created in the .github folder
