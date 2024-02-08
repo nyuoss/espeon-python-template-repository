@@ -1,1 +1,7 @@
-feature request template
+feature-request template:
+
+[date]
+
+[name]
+
+[Description]
