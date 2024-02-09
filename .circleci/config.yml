@@ -10,6 +10,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install pytest
+          command: pip install pytest
+      - run:
           name: Install PDM
           command: pip install pdm
       - run:
