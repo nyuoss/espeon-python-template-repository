@@ -12,18 +12,18 @@ Based on the objectives outlined in the assignment, here are the final choices w
 4. Continuous Integration Solution:
    - Choice: CircleCI, configured in .circleci/config.yml for automating tests, static analysis, and code formatting.
 5. Static Analysis Tool:
-   - Choice: flake8 for linting, and the option to use mypy for type checking was mentioned as a possibility for projects that benefit from static typing.
+   - Choice: flake8 for linting
 6. Code Formatting Solution:
-   - Choice: black for automatic code formatting, with isort for sorting imports to ensure consistent code style.
+   - Choice: black for automatic code formatting
 7. Package Manager:
-   - Initial Discussion: Use pip for managing Python packages, as per the assignment's guidelines.
-   - Final Decision: Implement Python Dependency Management (PDM) for managing project dependencies and environments, reflecting a more modern approach to Python project setup.
+   - Implemented Python Dependency Management (PDM) for managing project dependencies and environments
+   - The project uses PDM (Python Dependency Management) as the primary tool for managing dependencies. PDM is chosen for its modern approach to dependency management and project configuration in Python projects, utilizing the pyproject.toml file.
+   - Integration with pip: Although PDM is the primary package manager, pip is also utilized within the CircleCI configuration to initially install PDM (pip install pdm). This step is necessary because PDM is not pre-installed in the CircleCI Python environment. Once PDM is installed, it takes over as the package manager for installing project dependencies (pdm install) and managing the project's Python environment.
 8. Use PDM for Python Projects:
-   - Confirmation: We decided to use PDM, emphasizing its benefits for dependency management and integration with the pyproject.toml file for project configuration.
+   - We decided to use PDM, emphasizing its benefits for dependency management and integration with the pyproject.toml file for project configuration.
 9. Component Specification:
    - Implementation: We ensured the template includes a structured approach to organizing the project, with clear definitions and documentation for components such as the src directory for source code and tests directory for test scripts.
 10. Issue and Pull Request Templates:
     - Setup: Created templates for issues and pull requests within the .github directory to standardize submissions and facilitate clear, structured communication for contributions.
 
 We aimed to align with the assignment's objectives while also considering modern best practices in Python development. The use of PDM, in particular, reflects a forward-looking approach to Python project management, balancing the assignment requirements with the evolving landscape of Python tooling.
-
