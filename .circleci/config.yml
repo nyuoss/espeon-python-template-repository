@@ -19,6 +19,9 @@ jobs:
           name: Install dependencies
           command: pdm install
       - run:
+          name: Initialize PDM
+          command: pdm init
+      - run:
           name: Run tests
           command: pdm run pytest tests/
 
