@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: cimg/python  # Use the latest Python image
+      - image: cimg/python:3.9  # Use the latest Python image
     steps:
       - checkout
       - run:
